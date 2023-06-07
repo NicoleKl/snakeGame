@@ -15,7 +15,6 @@ export class Food {
   }
   
   draw() {
-    console.log(this.color)
     let { x, y } = this.pos;
     this.canvasContext.shadowBlur = 15;
     this.canvasContext.shadowColor = this.color;
