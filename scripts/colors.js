@@ -1,3 +1,3 @@
-const colorScheme = ["#A1C3D1", "#B39BC8", "#F172A1", "#E64398"];
+const colorScheme = ["#F31559", "#FF52A2", "#FFB07F", "#FFECAF", "#FECDA6", "#FF9130", "#FF5B22"];
 
 export default colorScheme;

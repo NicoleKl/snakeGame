@@ -13,13 +13,6 @@ export class Particle {
 
   draw() {
     let { x, y } = this.pos;
-    // let hsl = this.color
-    //   .split("")
-    //   .filter((l) => l.match(/[^hsl()$% ]/g))
-    //   .join("")
-    //   .split(",")
-    //   .map((n) => +n);
-    // let [r, g, b] = helpers.hsl2rgb(hsl[0], hsl[1] / 100, hsl[2] / 100);
     this.canvasContext.shadowColor = this.color;
     this.canvasContext.shadowBlur = 0;
     this.canvasContext.globalCompositeOperation = "lighter";

@@ -15,18 +15,18 @@ html,
 body {
   height: 100%;
   font-family: "Poppins", sans-serif;
-  color: #6e7888;
+  color: #A9A9A9;
 }
 body {
   background-color: "#F0EBF4";
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #9fa2a5;
+  color: #A9A9A9;
 }
 canvas {
-  background-color: rgb(255, 254, 254);
-  border: 1px solid #e2e2e2;
+  background-color: white;
+  border: 1px solid #A9A9A9;
 }
 
 .container {
@@ -52,26 +52,25 @@ h2 {
   margin-top: 20px;
   font-size: 30px;
   font-weight: 800;
-  color: #B39BC8
+  color: #F31559
 }
 .noselect {
   user-select: none;
 }
 #replay {
-  font-size: 12px;
-  padding: 10px 10px;
-  background: #9fa2a5;
+  font-size: 15px;
+  padding: 10px 20px;
+  background: #A9A9A9;
   border: none;
-  color: #F0EBF4;
+  color: white;
   border-radius: 20px;
   font-weight: 800;
   transform: rotate(270deg);
-  cursor: pointer;
   transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 #replay:hover {
-  background: #9fa2a5;
-  background: #B39BC8;
+  background-color: #FF52A2;
   transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #replay svg {
@@ -117,7 +116,7 @@ h2 {
 }
 #author h1 {
   font-size: 25px;
-  color: #F172A1;
+  color: #F31559;
   
 }
 .wrapper {

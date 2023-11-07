@@ -35,8 +35,7 @@ let helpers = {
   },
   drawGrid(canvasContext, width, height, cells) {
     canvasContext.lineWidth = 0.5;
-    canvasContext.strokeStyle = "#6e7888"
-    canvasContext.shadowBlur = 0;
+    canvasContext.strokeStyle = "#A9A9A9";
     for (let i = 1; i < cells; i++) {
       let f = (width / cells) * i;
       canvasContext.beginPath();

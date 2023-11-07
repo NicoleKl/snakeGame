@@ -88,7 +88,7 @@ export class Game {
     this.maxScore ? null : (this.maxScore = this.score);
     this.score > this.maxScore ? (this.maxScore = this.score) : null;
     window.localStorage.setItem("maxScore", this.maxScore);
-    this.canvasContext.fillStyle = "#A1C3D1";
+    this.canvasContext.fillStyle = "#FFB07F";
     this.canvasContext.textAlign = "center";
     this.canvasContext.font = "bold 30px Poppins, sans-serif";
     this.canvasContext.fillText("GAME OVER", this.frameWidth / 2, this.frameHeight / 2);

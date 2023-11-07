@@ -10,7 +10,7 @@ export class Snake {
     this.frameWidth = frameParams.width;
     this.frameHeight = frameParams.height;
     this.size = frameParams.width / frameParams.cells;
-    this.color = "#9fa2a5";
+    this.color = "#609966";
     this.history = [];
     this.total = 1;
   }
@@ -18,15 +18,14 @@ export class Snake {
   draw() {
     let { x, y } = this.pos;
     this.canvasContext.fillStyle = this.color;
-    this.canvasContext.shadowBlur = 20;
-    this.canvasContext.shadowColor = "rgba(255,255,255, .3)";
+    this.canvasContext.shadowColor = "rgba(255,255,255, 1)";
     this.canvasContext.fillRect(x, y, this.size, this.size);
     this.canvasContext.shadowBlur = 0;
     if (this.total >= 2) {
       for (let i = 0; i < this.history.length - 1; i++) {
         let { x, y } = this.history[i];
         this.canvasContext.lineWidth = 1;
-        this.canvasContext.fillStyle = "rgba(225,225,225,1)";
+        this.canvasContext.fillStyle = "#9DC08B";
         this.canvasContext.fillRect(x, y, this.size, this.size);
       }
     }

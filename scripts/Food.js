@@ -16,7 +16,7 @@ export class Food {
   
   draw() {
     let { x, y } = this.pos;
-    this.canvasContext.shadowBlur = 15;
+    this.canvasContext.shadowBlur = 5;
     this.canvasContext.shadowColor = this.color;
     this.canvasContext.fillStyle = this.color;
     this.canvasContext.fillRect(x, y, this.size, this.size);
